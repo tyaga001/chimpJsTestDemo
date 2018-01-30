@@ -9,6 +9,6 @@
   "author": "Ankur Tyagi",
   "license": "ISC",
   "devDependencies": {
- 
+    "chimp": "^0.51.0"
   }
 }
