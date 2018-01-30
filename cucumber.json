@@ -1,0 +1,61 @@
+[
+  {
+    "elements": [
+      {
+        "id": "search-the-airbnb-webapp;login-to-airbnb-webapp",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login to AirBnb WebApp",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to the AirBnb Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 10383670805
+            },
+            "line": 4,
+            "match": {
+              "location": "C:/reactAppTestDemo/chimpTestDemo/features/step_definitions/my_steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I see for search text",
+            "result": {
+              "status": "failed",
+              "duration": 3026822195,
+              "error_message": "Error: element (\"span=Search\") still not existing after 3000ms\n    at Object.wait (C:\\Users\\ankur.tyagi\\AppData\\Roaming\\npm\\node_modules\\chimp\\node_modules\\fibers\\future.js:449:15)\n    at Object.<anonymous> (C:\\Users\\ankur.tyagi\\AppData\\Roaming\\npm\\node_modules\\chimp\\node_modules\\wdio-sync\\build\\index.js:344:27)\n    at World.<anonymous> (C:/reactAppTestDemo/chimpTestDemo/features/step_definitions/my_steps.js:9:20)\n    at C:\\Users\\ankur.tyagi\\AppData\\Roaming\\npm\\node_modules\\chimp\\node_modules\\meteor-promise\\fiber_pool.js:43:40\n    at new WaitUntilTimeoutError (C:\\Users\\ankur.tyagi\\AppData\\Roaming\\npm\\node_modules\\chimp\\node_modules\\webdriverio\\build\\lib\\utils\\ErrorHandler.js:150:12)\n    at C:\\Users\\ankur.tyagi\\AppData\\Roaming\\npm\\node_modules\\chimp\\node_modules\\webdriverio\\build\\lib\\commands\\waitUntil.js:29:19\n    at C:\\Users\\ankur.tyagi\\AppData\\Roaming\\npm\\node_modules\\chimp\\node_modules\\meteor-promise\\fiber_pool.js:43:40"
+            },
+            "line": 5,
+            "match": {
+              "location": "C:/reactAppTestDemo/chimpTestDemo/features/step_definitions/my_steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 397483
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\ankur.tyagi\\AppData\\Roaming\\npm\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-the-airbnb-webapp",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Search the AirBnb WebApp",
+    "tags": [],
+    "uri": "C:/reactAppTestDemo/chimpTestDemo/features/search.feature"
+  }
+]
