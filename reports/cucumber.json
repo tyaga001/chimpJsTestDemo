@@ -1,1 +1,61 @@
 
+[
+  {
+    "elements": [
+      {
+        "id": "search-the-airbnb-webapp;login-to-airbnb-webapp",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login to AirBnb WebApp",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to the AirBnb Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 11404660912
+            },
+            "line": 4,
+            "match": {
+              "location": "C:/reactAppTestDemo/chimpTestDemo/features/step_definitions/my_steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I see for search text",
+            "result": {
+              "status": "passed",
+              "duration": 71794264
+            },
+            "line": 5,
+            "match": {
+              "location": "C:/reactAppTestDemo/chimpTestDemo/features/step_definitions/my_steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 227667
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\ankur.tyagi\\AppData\\Roaming\\npm\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-the-airbnb-webapp",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Search the AirBnb WebApp",
+    "tags": [],
+    "uri": "C:/reactAppTestDemo/chimpTestDemo/features/search.feature"
+  }
+]
